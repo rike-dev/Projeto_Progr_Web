@@ -19,20 +19,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header (Adicionar logo bonitinha) -->
-    <header class="container-fluid h1 row align-itens-center">
-      <h1 class="col d-flex justify-content-center">
-       <img src="https://www.luiztools.com.br/wp-content/uploads/2017/07/CRUD.png" alt="logo-crud" style="width: 400px;">
-      </h1>
-    </header>
-
-
-    <!-- Barra de Navegação (Precisa linkar tudo) -->
-    <nav class="navbar navbar-expand-lg col d-flex p-0">
-      <div class="container-fluid home bg-primary bg-gradient">
-        <a class="navbar-brand lead text-center" href="index.php" style="color: white;">
-          <strong>Home</strong></a
-        >
+  <nav
+      class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">
+          <img
+            src="./src/images/system-administrator.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          CRUD
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,41 +45,24 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse row justify-content-around"
-          id="navbarNavDropdown"
-        >
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item col-2 offset-1 btn btn-outline-primary active">
+            <li class="nav-item">
               <a
-                class="nav-link active text-center"
+                class="nav-link active"
                 aria-current="page"
-                style="color: white;"
+                href=""
                 >Registration</a
               >
             </li>
-            <li class="nav-item col-2 offset-1 btn btn-outline-primary">
-              <a
-              class="nav-link text-center"
-              href="collaborators.php"
-              style="color: white;"
-              >Collaborators</a>
+            <li class="nav-item">
+              <a class="nav-link" href="collaborators.php">Collaborators</a>
             </li>
-            <li class="nav-item col-2 offset-1 btn btn-outline-primary">
-              <a
-              class="nav-link text-center"
-              href="aboutus.php"
-              style="color: white;"
-              >About us</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.php">About Us</a>
             </li>
-            <li class="nav-item col-2 offset-1 btn btn-outline-primary">
-              <a
-              class="nav-link text-center"
-              href="contacts.php"
-              style="color: white;"
-              >Contacts</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.php">Contacts</a>
             </li>
           </ul>
         </div>

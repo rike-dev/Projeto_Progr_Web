@@ -1,20 +1,19 @@
 :root{
     margin:5px;
     padding: 5px;
-}
-
-.home{
-    background-image: var(--bs-gradient);
-}
-
-body{
-    background-color: rgba(0, 0, 255, 0.192);
+    background-image: url(./src/images/background.jpeg);
+    background-size: cover;
 }
 
 .foto{
     border-radius: 100%;
     width: 200px;
     height: 200px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
 
 .icone{
