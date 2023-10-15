@@ -1,0 +1,23 @@
+:root{
+    margin:5px;
+    padding: 5px;
+}
+
+.home{
+    background-image: var(--bs-gradient);
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.192);
+}
+
+.foto{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.icone{
+    width: 50px;
+    padding-right: 10px;
+}
